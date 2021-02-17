@@ -14,7 +14,7 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  result: 'O',
+  result: (0).toString(),
 };
 
 export default Display;

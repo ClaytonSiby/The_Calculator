@@ -6,7 +6,7 @@ import ButtonPanel from './ButtonPanel';
 function App() {
   return (
     <>
-      <Display result={(4 + 5).toString()} />
+      <Display />
       <ButtonPanel />
     </>
   );
