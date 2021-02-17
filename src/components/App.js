@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import '../App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
-    <Fragment>
-      <Display result={ (4 + 5).toString()}/>
+    <>
+      <Display result={(4 + 5).toString()} />
       <ButtonPanel />
-    </Fragment>
+    </>
   );
 }
 

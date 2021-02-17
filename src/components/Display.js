@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
 
-const Display = ( { result }) => {
-    return (
-        <div>
-            <h1>The result is: { result }</h1>
-        </div>
-    )
-}
+const Display = ({ result }) => (
+  <div>
+    <h1>
+      The result is:
+      { result }
+    </h1>
+  </div>
+);
 
 Display.propTypes = {
-    result: PropTypes.string.isRequired
-}
+  result: PropTypes.string,
+};
 
-Display.DefaultProps = {
-    result: 'O'
-}
+Display.defaultProps = {
+  result: 'O',
+};
 
 export default Display;
