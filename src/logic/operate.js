@@ -7,24 +7,24 @@ const operate = (numberOne, numberTwo, operation) => {
 
   switch (operation) {
     case '-':
-      result = numOne.minus(numTwo).toString();
+      result = numOne.minus(numTwo);
       break;
     case '+':
-      result = numOne.plus(numTwo).toString();
+      result = numOne.plus(numTwo);
       break;
     case 'X':
-      result = numOne.times(numTwo).toString();
+      result = numOne.times(numTwo);
       break;
     case '÷':
-      result = numOne.div(numTwo).toString();
+      result = numOne.div(numTwo);
       break;
     case '%':
-      result = (numOne.div(numTwo).times(1)).toString();
+      result = numTwo ? numTwo.div(100) : numOne.div(100);
       break;
     default:
   }
 
-  return result;
+  return result.toPrecision().toString();
 };
 
 export default operate;
