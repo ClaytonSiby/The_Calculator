@@ -16,6 +16,9 @@ const operate = (numberOne, numberTwo, operation) => {
       result = numOne.times(numTwo);
       break;
     case '÷':
+      if (numTwo === 0) {
+        result = 'Cannot divide by zero';
+      }
       result = numOne.div(numTwo);
       break;
     case '%':
