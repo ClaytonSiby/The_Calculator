@@ -1,20 +1,20 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Display = ({ total, next, operation }) => (
-  <div id='resultPanel'>
+  <div id="resultPanel">
     <p>{total || next}</p>
     <span>
-      {next && (total || '0')} {operation || null}
+      {next && (total || '0')}
+      {' '}
+      {operation || null}
     </span>
   </div>
-)
+);
 
 Display.propTypes = {
-  result: PropTypes.string
-}
+  total: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
+};
 
-Display.defaultProps = {
-  result: '0'
-}
-
-export default Display
+export default Display;
