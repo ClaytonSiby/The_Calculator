@@ -21,7 +21,7 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('./assets/main_bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/main_bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -31,9 +31,10 @@ body {
   background: grey;
   width: 40%;
   height: 80%;
-  opacity: .5;
+  opacity: 0.5;
   display: grid;
   grid-template-rows: 25% auto;
+
   /* justify-content: center;
   align-items: center; */
 }
@@ -42,7 +43,7 @@ body {
   background: #000;
   color: #fff;
   text-align: right;
-  padding: .9rem 1.2rem;
+  padding: 0.9rem 1.2rem;
   font-size: 1.7rem;
   font-weight: 700;
 }
@@ -52,7 +53,10 @@ body {
   grid-template-columns: auto;
 }
 
-.group-one, .group-two, .group-three, .group-four {
+.group-one,
+.group-two,
+.group-three,
+.group-four {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
@@ -69,6 +73,6 @@ body {
 }
 
 .btnInput:hover {
-  opacity: .9;
+  opacity: 0.9;
   cursor: pointer;
 }
