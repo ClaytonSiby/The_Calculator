@@ -12,13 +12,10 @@ const operate = (numberOne, numberTwo, operation) => {
     case '+':
       result = numOne.plus(numTwo);
       break;
-    case 'X':
+    case 'x':
       result = numOne.times(numTwo);
       break;
     case '÷':
-      if (numTwo === 0) {
-        result = 'Cannot divide by zero';
-      }
       result = numOne.div(numTwo);
       break;
     case '%':

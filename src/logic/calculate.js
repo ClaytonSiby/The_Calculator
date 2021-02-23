@@ -2,14 +2,14 @@ import operate from './operate';
 
 const calculate = (calculatorDataObject, buttonName) => {
   let { total, next, operation } = calculatorDataObject;
-  const operators = ['+', '-', 'X', '÷', '='];
+  const operators = ['+', '-', 'x', '÷', '='];
   const regexp = /[0-9]/.test(buttonName);
 
   if (buttonName === '+/-') {
     if (total && !next) {
-      total = operate(total, -1, 'X');
+      total = operate(total, -1, 'x');
     } else if (next) {
-      next = operate(next, -1, 'X');
+      next = operate(next, -1, 'x');
     }
   }
 
