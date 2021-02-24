@@ -12,7 +12,7 @@ This calculator project is built using the React Library. You can do some basic 
 - webpack
 - big.js
 - reactJS
-- 
+- buildpack
 
 ## live Demo
 [live Demo](https://the-react-calculator.herokuapp.com/)
@@ -45,7 +45,7 @@ then:
 
 ## :handshake: Contributing 
 
-* Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaytonSiby/Phaser3-JS-Capstone.git/issues)
+* Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaytonSiby/The_Calculator.git/issues)
 - To contribute to this project:
 - Fork this repository & clone locally.
 - Create an upstream remote and sync your local copy.
