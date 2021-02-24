@@ -1,5 +1,19 @@
 # The React Calculator
 
+This calculator project is built using the React Library. You can do some basic math calculations such that include:
+- addition & subtraction
+- division & multiplication
+- math with negative & positive values
+- convert numbers to percentage values.
+
+## Technologies used:
+> technologies used in building this project include but are not limited to: 
+- EcmaScript 6
+- webpack
+- big.js
+- reactJS
+- 
+
 ## live Demo
 [live Demo](https://the-react-calculator.herokuapp.com/)
 
