@@ -15,7 +15,7 @@ This calculator project is built using the React Library. You can do some basic 
 - buildpack
 
 ## live Demo
-[live Demo](https://the-react-calculator.herokuapp.com/)
+[The Calculator](https://the-react-calculator.herokuapp.com/)
 
 ## Project Design
 ![Calculator](./demo/document.gif)
