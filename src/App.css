@@ -5,13 +5,6 @@ body {
   width: 100%;
 }
 
-/* #root {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-} */
-
 #root {
   padding: 0;
   margin: 0;
@@ -33,17 +26,14 @@ body {
   height: 80%;
   opacity: 0.5;
   display: grid;
-  grid-template-rows: 25% auto;
-
-  /* justify-content: center;
-  align-items: center; */
+  grid-template-rows: 20% auto;
 }
 
 #resultPanel {
   background: #000;
   color: #fff;
   text-align: right;
-  padding: 0.9rem 1.2rem;
+  padding: 0 1.2rem;
   font-size: 1.7rem;
   font-weight: 700;
 }

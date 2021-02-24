@@ -3,6 +3,9 @@
 ## live Demo
 [live Demo](https://the-react-calculator.herokuapp.com/)
 
+## Project Design
+![Calculator](./demo/document.gif)
+
 ## Project SetUp
 You can clone the project on your local machine by running:
 - `git clone https://github.com/ClaytonSiby/The_Calculator.git`

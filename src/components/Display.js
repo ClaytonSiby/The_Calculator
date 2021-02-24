@@ -2,12 +2,16 @@ import PropTypes from 'prop-types';
 
 const Display = ({ total, next, operation }) => (
   <div id="resultPanel">
-    <p>{total || next}</p>
-    <span>
-      {next && (total || '0')}
-      {' '}
-      {operation || null}
-    </span>
+    <p>
+      <span>{ total || '0' }</span>
+      <br />
+      <span>
+        {' '}
+        {operation || null}
+        {' '}
+        { next }
+      </span>
+    </p>
   </div>
 );
 
