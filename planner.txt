@@ -1,0 +1,28 @@
+MILESTONE 5:
+
+1.) App component:
+
+   => Is going to be ur stateful parent component.
+   => Make a class component & initialize its state in the constructor with three properties: _total, _next and _operation.
+   => set all state properties to null
+   => Implement render function that should display Display & ButtonPanel.
+   => Implement handleClick function which takes buttonName as an argument & changes the state based on the result of the calculate function.
+   => Pass the _total or _next value to Display to display the current result.
+   => Pass handleClick as a clickHandler property to ButtonPanel
+
+
+2) ButtonPanel component:
+ 
+   => Implement the handleClick function which takes buttonName as an argument & returns clickHandler from props.
+   => Pass the clickHandler property to each button in the panel.
+
+3) Button
+ 
+   => Implement the handleClick function which takes buttonName as an argument and returns clickHandler from props
+   => Use the onClick event to attach the handleClick event to the button‬
+
+
+Functionality:
+
+=> if buttonName is equal any of [ '+', '-', '%', 'X', '÷'] :
+   check which symbol it is & perform an operation in accordance.

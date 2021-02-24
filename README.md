@@ -1,7 +1,24 @@
 # The React Calculator
 
+This calculator project is built using the React Library. You can do some basic math calculations such that include:
+- addition & subtraction
+- division & multiplication
+- math with negative & positive values
+- convert numbers to percentage values.
+
+## Technologies used:
+> technologies used in building this project include but are not limited to: 
+- EcmaScript 6
+- webpack
+- big.js
+- reactJS
+- buildpack
+
 ## live Demo
 [live Demo](https://the-react-calculator.herokuapp.com/)
+
+## Project Design
+![Calculator](./demo/document.gif)
 
 ## Project SetUp
 You can clone the project on your local machine by running:
@@ -28,7 +45,7 @@ then:
 
 ## :handshake: Contributing 
 
-* Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaytonSiby/Phaser3-JS-Capstone.git/issues)
+* Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaytonSiby/The_Calculator.git/issues)
 - To contribute to this project:
 - Fork this repository & clone locally.
 - Create an upstream remote and sync your local copy.
