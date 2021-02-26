@@ -1,0 +1,9 @@
+.displayComp {
+  background: rgba(0, 0, 0, 0.6);
+  height: 15vh;
+  color: white;
+  font-weight: 700;
+  padding: 1.5rem 1.7rem;
+  text-align: right;
+  font-size: 2rem;
+}
