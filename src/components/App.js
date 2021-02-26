@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import '../App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import styles from '../assets/styles.module.css';
+import calcStyles from '../assets/app.module.css';
 
 const App = () => {
   const initialState = { total: null, next: null, operation: null };
@@ -15,7 +16,7 @@ const App = () => {
   const { total, next, operation } = state;
 
   return (
-    <div id="mainContainer">
+    <div className={`${styles.flexContainer} ${calcStyles.calcContainer}`}>
       <Display total={total} next={next} operation={operation} />
       <ButtonPanel clickHandler={handleClick} />
     </div>

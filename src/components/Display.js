@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
+import styles from '../assets/styles.module.css';
+import display from '../assets/display.module.css';
 
 const Display = ({ total, next, operation }) => (
-  <div id="resultPanel">
+  <div className={`${styles.flexContainer} ${display.displayComp}`}>
     <p>
       <span>{ total || '0' }</span>
       <br />
