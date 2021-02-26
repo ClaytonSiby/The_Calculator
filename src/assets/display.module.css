@@ -1,9 +1,9 @@
 .displayComp {
   background: grey;
-  height: 100px;
+  height: 15vh;
   color: white;
   font-weight: 700;
-  padding: 1.7rem;
+  padding: 1.5rem 1.7rem;
   text-align: right;
   font-size: 2rem;
 }
