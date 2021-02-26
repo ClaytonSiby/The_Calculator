@@ -1,5 +1,5 @@
 .displayComp {
-  background: grey;
+  background: rgba(0, 0, 0, .6);
   height: 15vh;
   color: white;
   font-weight: 700;
