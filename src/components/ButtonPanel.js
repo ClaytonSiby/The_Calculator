@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Button from './Button';
 import styles from '../assets/styles.module.css';
-import btnPanelStyles from '../assets/btnPanel.module.css'
+import btnPanelStyles from '../assets/btnPanel.module.css';
 
 const ButtonPanel = ({ clickHandler }) => {
   const handleClick = btnName => clickHandler(btnName);
