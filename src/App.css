@@ -67,3 +67,15 @@ li a {
   font-size: 1.6rem;
   color: #fff;
 }
+
+.homeContainer {
+  display: flex;
+  height: 40%;
+  max-width: 60%;
+  align-items: center;
+  margin: auto;
+  padding: 0 .7rem;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-family: sans-serif;
+}
