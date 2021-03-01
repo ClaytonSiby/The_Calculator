@@ -52,3 +52,18 @@ li a {
   color: #fff;
   text-decoration: none;
 }
+
+.quote {
+  display: flex;
+  height: 40%;
+  max-width: 60%;
+  align-items: center;
+  margin: auto;
+  padding: .7rem;
+  background: rgba(0, 0, 0, .5);
+}
+
+.quote p {
+  font-size: 1.6rem;
+  color: #fff;
+}
