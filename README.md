@@ -1,6 +1,6 @@
 # The React Calculator
 
-This calculator project is built using the React Library. You can do some basic math calculations such that include:
+This calculator project is a web application responsive on desktop only, it is built using the React Library. You can do some basic math calculations such that include:
 - addition & subtraction
 - division & multiplication
 - math with negative & positive values
