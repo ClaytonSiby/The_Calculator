@@ -46,7 +46,11 @@ const ButtonPanel = ({ clickHandler }) => {
 };
 
 ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func,
+};
+
+ButtonPanel.defaultProps = {
+  clickHandler: undefined,
 };
 
 export default ButtonPanel;

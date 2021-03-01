@@ -19,13 +19,15 @@ const Button = ({
 };
 
 Button.propTypes = {
-  buttonName: PropTypes.string.isRequired,
-  clickHandler: PropTypes.func.isRequired,
+  buttonName: PropTypes.string,
+  clickHandler: PropTypes.func,
   wide: PropTypes.bool,
   color: PropTypes.bool,
 };
 
 Button.defaultProps = {
+  buttonName: '',
+  clickHandler: undefined,
   wide: false,
   color: false,
 };
