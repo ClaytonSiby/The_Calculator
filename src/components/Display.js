@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../assets/styles.module.css';
 import display from '../assets/display.module.css';
@@ -18,9 +19,15 @@ const Display = ({ total, next, operation }) => (
 );
 
 Display.propTypes = {
-  total: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
+};
+
+Display.defaultProps = {
+  total: '',
+  next: '',
+  operation: '',
 };
 
 export default Display;
