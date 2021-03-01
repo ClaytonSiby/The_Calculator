@@ -4,18 +4,78 @@ body {
   height: 100vh;
   width: 100%;
   overflow: hidden;
-}
-
-#root {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/main_bg.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding: 1.2rem 0;
-  margin: auto;
+  height: 100%;
+}
+
+.mainWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+  padding: 0 1rem;
+  color: grey;
+}
+
+ul {
+  height: 100%;
+  padding: 0 0.8rem;
+}
+
+li {
+  padding: 0.7rem 2rem;
+  float: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.quote {
+  display: flex;
+  height: 40%;
+  max-width: 60%;
+  align-items: center;
+  margin: auto;
+  padding: 0.7rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.quote p {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.homeContainer {
+  display: flex;
+  height: 40%;
+  max-width: 60%;
+  align-items: center;
+  margin: auto;
+  padding: 0 0.7rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: sans-serif;
 }

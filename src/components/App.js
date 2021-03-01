@@ -16,9 +16,11 @@ const App = () => {
   const { total, next, operation } = state;
 
   return (
-    <div className={`${styles.flexContainer} ${calcStyles.calcContainer}`}>
-      <Display total={total} next={next} operation={operation} />
-      <ButtonPanel clickHandler={handleClick} />
+    <div className="mainWrapper">
+      <div className={`${styles.flexContainer} ${calcStyles.calcContainer}`}>
+        <Display total={total} next={next} operation={operation} />
+        <ButtonPanel clickHandler={handleClick} />
+      </div>
     </div>
   );
 };

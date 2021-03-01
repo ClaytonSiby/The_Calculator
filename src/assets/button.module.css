@@ -4,4 +4,11 @@
   border: 0.1px solid grey;
   height: 100%;
   font-size: 1.3rem;
+  transition: ease 0.2s;
+}
+
+.maxWidth:hover {
+  background: rgba(189, 183, 183, 0.5);
+  color: #fff;
+  cursor: pointer;
 }
