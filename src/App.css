@@ -59,8 +59,8 @@ li a {
   max-width: 60%;
   align-items: center;
   margin: auto;
-  padding: .7rem;
-  background: rgba(0, 0, 0, .5);
+  padding: 0.7rem;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .quote p {
@@ -74,8 +74,8 @@ li a {
   max-width: 60%;
   align-items: center;
   margin: auto;
-  padding: 0 .7rem;
-  background: rgba(0, 0, 0, .5);
+  padding: 0 0.7rem;
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-family: sans-serif;
 }

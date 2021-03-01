@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => (
-  <div className='homeContainer'>
+  <div className="homeContainer">
     <div>
       <p>
         Mathematics as an expression of the human mind reflects the active will,
@@ -16,6 +16,6 @@ const Home = () => (
       </p>
     </div>
   </div>
-)
+);
 
-export default Home
+export default Home;

@@ -18,7 +18,7 @@ This calculator project is built using the React Library. You can do some basic 
 [The Calculator](https://the-react-calculator.herokuapp.com/)
 
 ## Project Design
-![Calculator](./demo/demo.gif)
+![Calculator](./demo/projectdemo.gif)
 
 ## Project SetUp
 You can clone the project on your local machine by running:
