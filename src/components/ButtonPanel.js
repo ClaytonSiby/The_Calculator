@@ -36,7 +36,7 @@ const ButtonPanel = ({ clickHandler }) => {
       </div>
 
       <div className={btnPanelStyles.fixedHeight}>
-        <Button wide buttonName="O" clickHandler={handleClick} />
+        <Button wide buttonName="0" clickHandler={handleClick} />
         <Button buttonName="." clickHandler={handleClick} />
         <Button color buttonName="=" clickHandler={handleClick} />
       </div>
