@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component Display renders correct 1`] = `
+<div
+  className="flexContainer displayComp"
+>
+  <p>
+    <span>
+      0
+    </span>
+    <br />
+    <span>
+       
+       
+      
+    </span>
+  </p>
+</div>
+`;
+
+exports[`Display component should render correct 1`] = `
+<div
+  className="flexContainer displayComp"
+>
+  <p>
+    <span>
+      0
+    </span>
+    <br />
+    <span>
+       
+       
+      
+    </span>
+  </p>
+</div>
+`;

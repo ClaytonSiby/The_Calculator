@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders output consistently to the DOM 1`] = `
+<div
+  className="mainWrapper"
+>
+  <div
+    className="flexContainer calcContainer"
+  >
+    <div
+      className="flexContainer displayComp"
+    >
+      <p>
+        <span>
+          0
+        </span>
+        <br />
+        <span>
+           
+           
+        </span>
+      </p>
+    </div>
+    <div
+      className="flexContainer"
+    >
+      <div
+        className="fixedHeight"
+      >
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "orange",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="fixedHeight"
+      >
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "orange",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        className="fixedHeight"
+      >
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "orange",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="fixedHeight"
+      >
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "orange",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="fixedHeight"
+      >
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "50%",
+            }
+          }
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": false,
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="maxWidth"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "orange",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

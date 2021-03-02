@@ -1,8 +1,9 @@
-import { render } from '@testing-library/react';
-import NavBar from '../components/NavBar';
+import renderer from 'react-test-renderer'
+import NavBar from '../components/NavBar'
 
 describe('NavBar component', () => {
   test('render successfully to the DOM', () => {
-    render(<NavBar />);
-  });
-});
+    const test = renderer.create(<NavBar />).toJSON()
+    expect(test).toMatchSnapshot()
+  })
+})

@@ -1,8 +1,10 @@
-import { render } from '@testing-library/react';
+
 import Home from '../components/Home';
+import renderer from 'react-test-renderer'
 
 describe('Home component', () => {
   test('renders the DOM without errors', () => {
-    render(<Home />);
+    const test = renderer.create(<Home />).toJSON();
+    expect(test).toMatchSnapshot();
   });
 });

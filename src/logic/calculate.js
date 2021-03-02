@@ -54,9 +54,9 @@ const calculate = (calculatorDataObject, buttonName) => {
   if (buttonName === '.') {
     if (!total && !next) {
       total = '0.';
-    } else if (total && !next && total.indexOf('.') === -1) {
+    } else if (total && !next && !total.split('').contains('.')) {
       total += '.';
-    } else if (next && next.indexOf('.') === -1) {
+    } else if (next) {
       next += '.';
     }
   }
