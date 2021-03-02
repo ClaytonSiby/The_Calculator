@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
-import App from '../components/App';
 import renderer from 'react-test-renderer';
+import App from '../components/App';
 
 describe('App component', () => {
   test('renders learn react link', () => {
@@ -10,5 +10,5 @@ describe('App component', () => {
   test('renders output consistently to the DOM', () => {
     const test = renderer.create(<App />).toJSON();
     expect(test).toMatchSnapshot();
-  })
+  });
 });

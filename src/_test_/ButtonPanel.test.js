@@ -1,6 +1,6 @@
-import {render} from '@testing-library/react';
-import ButtonPanel from '../components/ButtonPanel';
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
+import ButtonPanel from '../components/ButtonPanel';
 
 describe('ButtonPanel Component', () => {
   test('renders successfully without raising errors', () => {
@@ -10,5 +10,5 @@ describe('ButtonPanel Component', () => {
   test('output renders consistently', () => {
     const test = renderer.create(<ButtonPanel />).toJSON();
     expect(test).toMatchSnapshot();
-  })
+  });
 });

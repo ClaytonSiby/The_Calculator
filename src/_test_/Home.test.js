@@ -1,6 +1,5 @@
-
+import renderer from 'react-test-renderer';
 import Home from '../components/Home';
-import renderer from 'react-test-renderer'
 
 describe('Home component', () => {
   test('renders the DOM without errors', () => {
