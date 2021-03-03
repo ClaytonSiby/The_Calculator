@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button makes sure the output renders consistently 1`] = `
+<button
+  className="maxWidth"
+  onClick={[Function]}
+  style={
+    Object {
+      "background": false,
+      "width": "25%",
+    }
+  }
+  type="button"
+>
+  
+</button>
+`;

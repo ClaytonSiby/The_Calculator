@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component render successfully to the DOM 1`] = `
+Array [
+  <nav>
+    <div>
+      <h2>
+        Math Magicians
+      </h2>
+    </div>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>,
+  <div
+    className="homeContainer"
+  >
+    <div>
+      <p>
+        Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.
+      </p>
+      <p>
+        We will always have STEM with us. Some things will drop out of the public eye and go away, but there will always be science, engineering and technology. And there will always, always be mathematics.
+      </p>
+    </div>
+  </div>,
+]
+`;

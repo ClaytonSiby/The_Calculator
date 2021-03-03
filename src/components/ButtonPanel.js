@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 import styles from '../assets/styles.module.css';
@@ -36,7 +37,7 @@ const ButtonPanel = ({ clickHandler }) => {
       </div>
 
       <div className={btnPanelStyles.fixedHeight}>
-        <Button wide buttonName="O" clickHandler={handleClick} />
+        <Button wide buttonName="0" clickHandler={handleClick} />
         <Button buttonName="." clickHandler={handleClick} />
         <Button color buttonName="=" clickHandler={handleClick} />
       </div>
@@ -45,7 +46,11 @@ const ButtonPanel = ({ clickHandler }) => {
 };
 
 ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func,
+};
+
+ButtonPanel.defaultProps = {
+  clickHandler: undefined,
 };
 
 export default ButtonPanel;
